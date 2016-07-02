@@ -6,3 +6,5 @@
   <%= @picture.title %>, <%= @picture.artist %>
   <%= image_tag @picture.url %>
 </p>
+
+<%= link_to "Back to Pictures", pictures_url %> | <%= link_to "Edit", edit_picture_path(@picture) %>
